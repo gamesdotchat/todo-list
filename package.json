@@ -1,0 +1,20 @@
+{
+  "name": "todo-list",
+  "version": "0.0.1",
+  "description": "run a todo list on your stream",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js "
+  },
+  "author": "gamesdotchat",
+  "license": "MIT",
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.16.2",
+    "tmi.js": "^1.8.5",
+    "ws": "^3.2.0"
+  }
+}
